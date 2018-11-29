@@ -1,0 +1,106 @@
+/* Mon style (la Sophie) qui, espérons le, ne sera pas trop nul à chier
+
+Merci à tout ceux qui ont cru en moi mdr */
+body
+{
+    background-color: #F9F4F7; 
+    color: #494547; 
+    font-family: Calibri;
+}
+h1, em
+{
+    color: #DAAEBF;
+}
+h1
+{   font-family: Calibri Light;
+	font-size: 50px; 
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+h2
+{	font-size:35;
+}
+
+	/* LES LIENS */
+
+a /* tout les liens */
+{
+   text-decoration: underline;
+   color: #494547;
+   font-style: bold;
+}
+
+a:hover /* souris dessus */
+{
+   text-decoration: underline;
+   color: #B09CB1;
+}
+.menu
+{ 	font-family: Calibri;
+    color: #DAAEBF;
+    border: 3px pink dashed;
+    text-align: center;
+    padding: 12px;
+    margin:40px;
+
+}
+
+.face
+{
+	color:pink;
+}
+
+p
+{
+    font-size: 16px; 
+    font-family: Calibri; /*rajouter des polices au cas où ça lit pas mdr */
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.selfie
+{   float:right;
+	padding-right:100px;
+	padding-bottom:100px;
+}
+
+nav
+{
+    float: right;
+    width: 150px;
+    border: 1px solid pink;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 80px;
+    padding-right: 10px;
+}
+
+section
+{
+    margin-right: 170px;
+    border: 1px solid pink;
+}
+.selfie
+{
+opacity: 0.9;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+transition: all .3s linear;
+}
+ 
+{block:ifRoundedimages}
+ img{
+-moz-border-radius: 15px;
+border-radius: 15px;{/block:ifRoundedimages}
+}
+ 
+img:hover{
+opacity: 1.00;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+transition: all .3s linear;
+}  
